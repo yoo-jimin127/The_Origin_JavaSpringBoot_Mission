@@ -1,6 +1,5 @@
 # The_Origin_JavaSpringBoot_Mission
 ## Projectlion The Origin Java Spring Boot Mission Sourcecode Repository
-------
 
 ### Basic Mission 구현 명세
 커뮤니티 사이트 만들어보기
