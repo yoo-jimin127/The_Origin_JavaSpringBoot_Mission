@@ -2,7 +2,26 @@
 ## Projectlion The Origin Java Spring Boot Mission Sourcecode Repository
 ------
 
+### Basic Mission 구현 명세
+커뮤니티 사이트 만들어보기
+
+1. 게시판에 대한 CRUD 작성
+    1. 게시판은 게시판 이름에 대한 정보를 가짐
+2. 게시글에 대한 CRUD를 작성
+    1. 게시글에는 제목, 본문, 작성자, 비밀번호에 대한 정보가 존재
+    2. 작성된 게시글은 게시판에 속해 있어야 함
+    3. 게시글을 삭제하기 위해서는 게시글의 비밀번호가 함깨 제공되어야 함
+
+### 세부 조건
+
+1. 관계형 데이터베이스의 Primary Key와 같은 정보 데이터에 포함하여, 각 자원을 쉽게 식별할 수 있도록 할 것
+2. REST API와 URL의 구조를 잘 생각하여 `@RequestMapping` 구성을 할 수 있도록 할 것
+    1. 특히, `post` 와 `board` 의 관계가 요청하는 URL 상에 나타날 수 있도록 할 것
+
+------
 ### Mission 2. Basic Level 구현 - 동작 과정
+------
+
 1. 게시판 생성 기능
 ![image](https://user-images.githubusercontent.com/66112716/155154519-25fcc631-2ab2-42fd-99df-208b403fa8af.png)
 
