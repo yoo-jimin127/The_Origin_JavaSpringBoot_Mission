@@ -1,8 +1,6 @@
 # Mission 2
 ## Spring Boot로 만드는 간단한 서비스
 
----
-
 ### Basic Mission 구현 명세
 커뮤니티 사이트 만들어보기
 
